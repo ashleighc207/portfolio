@@ -1,0 +1,47 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  padding: 5rem 3rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.heading-one {
+  font-size: 2.5rem;
+  font-weight: 200;
+  max-width: 65%;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.heading-bold {
+  font-weight: 300;
+}
+
+.main-content {
+  margin-top: 5rem;
+}
+
+.project-categories {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.project-category {
+  cursor: pointer;
+  margin-right: 2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.project-category:hover,
+.project-category.active {
+  border-bottom: 2px solid rgba(119, 199, 222, 0.8);
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    padding: 2rem;
+  }
+  .heading-one {
+    max-width: unset;
+  }
+}
