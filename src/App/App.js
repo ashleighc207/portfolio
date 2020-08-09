@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Header/Header";
 import Project from "../Project/Project";
-import { projects, categories } from "../utils/projects";
+import { projects, categories } from "../utils/data";
 import "./App.css";
 
 const App = () => {
@@ -48,9 +48,11 @@ const App = () => {
               );
             })}
           </div>
-          {visibleProjects.map(p => {
-            return <Project project={p} key={p.name} />;
-          })}
+          <div className="projects">
+            {visibleProjects.map(p => {
+              return <Project project={p} key={p.name} />;
+            })}
+          </div>
         </section>
       </main>
     </>

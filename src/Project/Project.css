@@ -1,0 +1,45 @@
+.project {
+  border: 0.5px solid rgba(118, 118, 118, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 calc(40% - 2rem);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.project-name {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+.project-link-divider {
+  color: rgba(0, 11, 108, 0.8);
+  margin: 0 1rem;
+}
+
+.project-link {
+  color: rgba(0, 11, 108, 0.8);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.project-link:hover {
+  border-bottom: 2px solid rgba(0, 11, 108, 0.8);
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.project:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.project-image {
+  max-width: 20rem;
+}
