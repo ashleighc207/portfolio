@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { projects, categories } from "../utils/data";
 import Header from "../Header/Header";
 import Project from "../Project/Project";
-import { projects, categories } from "../utils/data";
 import "./App.css";
 
 const App = () => {
